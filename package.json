@@ -1,0 +1,51 @@
+{
+  "name": "health-website-india",
+  "version": "1.0.0",
+  "description": "AI-powered Health Website for India with Liver Health Assistant, Recovery Tracker, and more",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend": "node server.js",
+    "dev:backend": "nodemon server.js"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@supabase/supabase-js": "^2.43.0",
+    "cloudinary": "^1.40.0",
+    "next-cloudinary": "^5.0.0",
+    "openai": "^4.47.0",
+    "@google/generative-ai": "^0.3.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.0",
+    "dotenv": "^16.3.0",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "next-intl": "^3.0.0",
+    "next-seo": "^6.2.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "recharts": "^2.10.0",
+    "zustand": "^4.4.0",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.0",
+    "@hookform/resolvers": "^3.3.0",
+    "react-markdown": "^9.0.0",
+    "gray-matter": "^4.0.3",
+    "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/express": "^4.17.0",
+    "typescript": "^5.3.0",
+    "nodemon": "^3.0.0",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "15.0.0"
+  }
+}
